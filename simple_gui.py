@@ -1,0 +1,18 @@
+import tkinter as tk
+
+window = tk.Tk()
+window.title("hello world")
+window.geometry ("300x300")
+hello = tk.Label(text = "Hello world!")
+hello.pack()
+button = tk.Button(text = "Click me!")
+button.pack()
+notworking = tk.Label(text = "Doesnt work?")
+notworking.pack()
+service = tk.Button(text = "Click here for customer service!")
+service.pack()
+hello = tk.Label(text = "Try again?")
+hello.pack()
+button = tk.Button(text = "Press to retry")
+button.pack()
+tk.mainloop()
